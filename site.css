@@ -1,0 +1,82 @@
+@font-face {
+    font-family: kollektif;
+    src: url(./fonts/kollektif/Kollektif-Bold.ttf);
+}
+
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+    width: 47.7%;
+    margin: 1%;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #909090;
+    border-radius: 5mm;
+    height: 15px;
+  }
+
+  /* Handle on hover */
+  /* ::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(200deg, #FFFFFF, #00e1ff);
+  } */
+
+#pretyDot {
+    color: #f26e3b;
+}
+
+/** main page */
+
+#main-body {
+    background-color: #e4e4e4;
+    color: #101010;
+    font-family: kollektif;
+}
+
+#main-sec1-h1 {
+    font-family: kollektif;
+    font-size: 900%;
+}
+
+#main-sec1-div1 {
+    height: 700px;
+    width: 90%;
+    padding: 4%;
+    margin: 1%;
+
+    box-shadow: 0 0 1rem 0 rgba(255, 255, 255, 0.139);
+    border-radius: 10mm;
+    background-color: rgba(0, 146, 224, 0.163);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    -moz-backdrop-filter: blur(5px);
+
+    overflow-y: scroll;
+}
+
+#main-sec2-div1 {
+    height: 350px;
+    width: 90%;
+    padding: 4%;
+    margin: 1%;
+
+    box-shadow: 0 0 1rem 0 rgba(255, 255, 255, 0);
+    border-radius: 10mm;
+    background-color: rgba(242, 108, 59, 0.209);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    -moz-backdrop-filter: blur(5px);
+
+    overflow-x: scroll;
+
+}
