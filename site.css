@@ -67,7 +67,7 @@
 #main-sec2-div1 {
     height: 350px;
     width: 90%;
-    padding: 4%;
+    padding: 2%;
     margin: 1%;
 
     box-shadow: 0 0 1rem 0 rgba(255, 255, 255, 0);
@@ -78,5 +78,26 @@
     -moz-backdrop-filter: blur(5px);
 
     overflow-x: scroll;
+    overflow-y: hidden;
+}
 
+.main-expandableDiv {
+  display: inline-block;
+  height: 250px;
+  width: 90%;
+  margin: 2%;
+  padding: 4%;
+
+  background-color: #e4e4e4;
+  border-radius: 10mm;
+}
+.main-expandableDiv-2 {
+  display: inline-block;
+  height: 90%;
+  width: 30%;
+  padding:2%;
+  vertical-align: top;
+
+  background-color: #e4e4e4;
+  border-radius: 10mm;
 }
